@@ -1,0 +1,15 @@
+{
+  "name": "college-event-manager",
+  "version": "1.0.0",
+  "description": "Full-Stack College Event Management System (React, Express, MySQL/SQLite, Chart.js)",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "test": "cd server && npm test"
+  },
+  "keywords": ["college", "event-management", "full-stack", "react", "express", "mysql"],
+  "author": "College Event Manager Team",
+  "license": "ISC"
+}
